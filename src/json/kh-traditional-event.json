@@ -1,0 +1,407 @@
+[
+  {
+    "label": {
+      "kh": "ព្រះរាជពិធី​សិត​ទៀន​ព្រះវស្សា",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "៨កើត",
+      "month": "ទុតិយាសាឍ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះរាជពិធី​សិត​ទៀន​ព្រះវស្សា",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "៨កើត",
+      "month": "អាសាឍ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "បំបួសនាគខ្នាន",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១៤កើត",
+      "month": "អាសាឍ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "បំបួសនាគខ្នាន",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១៤កើត",
+      "month": "ទុតិយាសាឍ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "តាំងពិធីច្រត់ព្រះនង្គ័ល",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "២រោច",
+      "month": "ពិសាខ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "តាំងពិធីច្រត់ព្រះនង្គ័ល",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "៣រោច",
+      "month": "ពិសាខ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពិធីបុណ្យមាឃបូជា",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១៥កើត",
+      "month": "មាឃ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះ​រាជ​ពិធី​កាត់​ព្រ័ត្រ និង​ចាប់កូនខ្លែង",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១រោច",
+      "month": "កក្ដិក"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "កឋិន​កាល",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១រោច",
+      "month": "អស្សុជ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះរាជពិធីកាន់​បិណ្ឌរបស់​ព្រះករុណា",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១១រោច",
+      "month": "ភទ្របទ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ចាប់​ផ្តើម​ពិធីកាន់​បិណ្ឌ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១រោច",
+      "month": "ភទ្របទ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពិធីបុណ្យចូលព្រះវស្សា",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១រោច",
+      "month": "អាសាឍ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពិធីបុណ្យចូលព្រះវស្សា",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១រោច",
+      "month": "ទុតិយាសាឍ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពិធីបុណ្យអាសាឡ្ហបូជា",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១៥កើត",
+      "month": "អាសាឍ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពិធីបុណ្យអាសាឡ្ហបូជា",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១៥កើត",
+      "month": "ទុតិយាសាឍ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពិធីបុណ្យ​វិសាខបូជា",
+      "en": "Visaka Bochea Day"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": "១៥កើត",
+      "month": "ពិសាខ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពិធីបុណ្យភ្ជុំបិណ្ឌ",
+      "en": "Pchum Ben Festival"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": "១៤រោច",
+      "month": "ភទ្របទ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពិធីបុណ្យភ្ជុំបិណ្ឌ",
+      "en": "Pchum Ben Festival"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": "១៥រោច",
+      "month": "ភទ្របទ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពិធីបុណ្យភ្ជុំបិណ្ឌ",
+      "en": "Pchum Ben Festival"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": "១កើត",
+      "month": "អស្សុជ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះរាជ​ពិធីបុណ្យ​អុំទូក បណ្តែតប្រទីប និង​សំពះព្រះខែ អកអំបុក",
+      "en": "Water Festival"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": "១៤កើត",
+      "month": "កក្ដិក"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះរាជ​ពិធីបុណ្យ​អុំទូក បណ្តែតប្រទីប និង​សំពះព្រះខែ អកអំបុក",
+      "en": "Water Festival"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": "១៥កើត",
+      "month": "កក្ដិក"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះរាជ​ពិធីបុណ្យ​អុំទូក បណ្តែតប្រទីប និង​សំពះព្រះខែ អកអំបុក",
+      "en": "Water Festival"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": "១រោច",
+      "month": "កក្ដិក"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះរាជពិធីច្រត់ព្រះនង្គ័ល",
+      "en": "Royal Ploughing Ceremony"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": "៤រោច",
+      "month": "ពិសាខ"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "តាំងពិធីត្រស្តិសង្ក្រាន្ត",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១២រោច",
+      "month": "ផល្គុន"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "តាំងពិធីត្រស្តិសង្ក្រាន្ត",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១៣រោច",
+      "month": "ផល្គុន"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "តាំងពិធីត្រស្តិសង្ក្រាន្ត",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១៤រោច",
+      "month": "ផល្គុន"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះរាជពិធីត្រស្តិសង្ក្រាន្ត",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": "១៥រោច",
+      "month": "ផល្គុន"
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  }
+]

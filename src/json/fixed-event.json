@@ -1,0 +1,917 @@
+[
+  {
+    "label": {
+      "kh": "ប្រាសាទ​សំបូរព្រៃ​គុក​ចូល​ជា​បេតិកភណ្ឌពិភពលោក",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 8,
+      "month": 7
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ប្រាសាទ​ព្រះវិហារ​ចូលជា​បេតិកភណ្ឌពិភពលោក",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 7,
+      "month": 7
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "កំណើត​គណបក្ស​ប្រជាជន​កម្ពុជា",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 28,
+      "month": 6
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​ប្រឆាំង​គ្រឿង​ញៀន",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 26,
+      "month": 6
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​អតីត​យុទ្ធជន",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 21,
+      "month": 6
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ប្រគល់​ប្រាសាទ​ព្រះ​វិហារ​មក​កម្ពុជា",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 15,
+      "month": 6
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាប្រឆាំង​ពលកម្ម​កុមារ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 12,
+      "month": 6
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាបរិស្ថានជាតិ និងអន្តរជាតិ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 5,
+      "month": 6
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាកុមារ​អន្តរជាតិ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 1,
+      "month": 6
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាពិភពលោកគ្មានថ្នាំ​ជក់",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 31,
+      "month": 5
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "កំណើត​នគរបាល​ជាតិ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 16,
+      "month": 5
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​អន្តរជាតិ​ស្តីពី​គ្រួសារ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 15,
+      "month": 5
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​សេរីភាព​សារព័ត៌មាន",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 3,
+      "month": 5
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "កម្ពុជាចូលជាសមាជិកអាស៊ាន",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 30,
+      "month": 4
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "គោរពវិញ្ញាណក្ខន្ធសម្តេចព្រះមហាក្សត្រី​យានី",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 9,
+      "month": 4
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាព្រះពុទ្ធសាសនាពិភពលោក",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 8,
+      "month": 4
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​សុខភាព​ពិភពលោក​",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 7,
+      "month": 4
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​នយោបាន​ឈ្នះ​ឈ្នះ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 29,
+      "month": 12
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "បុណ្យណូអែល",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 25,
+      "month": 12
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "កម្ពុជាចូលជាសមាជិកអង្គការសហប្រជាជាតិ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 14,
+      "month": 12
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ក្រុម​ប្រាសាទ​អង្គរ​ចូល​យូណេស្កូ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 14,
+      "month": 12
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាប្រឆាំង​នឹង​ការជួញដូរ​មនុស្ស",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 12,
+      "month": 12
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាសិទ្ធិ​មនុស្ស",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 10,
+      "month": 12
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​ជន​ពិការ​ពិភពលោក",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 3,
+      "month": 12
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ល្បែង​ទាញព្រ័ត្រ​ចូល​ជា​បេតិកភណ្ឌ​",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 2,
+      "month": 12
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​ប្រឆាំង​ជំងឺ​អេដស៍",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 1,
+      "month": 12
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ចាប៉ីដងវែង​ចូល​យូណេស្កូ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 30,
+      "month": 11
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ល្ខោន​ស្រមោល​ស្បែក​ធំ​ចូលជា​សម្បត្តិ​មនុស្សជាតិ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 25,
+      "month": 11
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​អនាម័យ​បរិស្ថាន",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 23,
+      "month": 11
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពន្លត់ភ្លើងជ័យ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 11,
+      "month": 11
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "កំណើត​កង​យោធពល​ខេមរភូមិន្ទ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 9,
+      "month": 11
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "របាំ​ព្រះរាជទ្រព្យ​ចូលជា​សម្បត្តិ​វប្បធម៌​នៃ​មនុស្សជាតិ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 7,
+      "month": 11
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ខួប​ប្រសូត​ព្រះ​បរមរតនកោដ្ឋ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 31,
+      "month": 10
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "សន្ធិ​សញ្ញា​ក្រុង​ប៉ារីស",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 23,
+      "month": 10
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាគ្រូ​បង្រៀន​ពិភពលោក​​",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 5,
+      "month": 10
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាមនុស្ស​ចាស់",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 1,
+      "month": 10
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាទេសចរណ៍",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 27,
+      "month": 9
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាសន្តិភាព​អន្តរជាតិ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 21,
+      "month": 9
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាអូហ្សូន​បរិស្ថាន",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 16,
+      "month": 9
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាពិភពលោកគ្មានផ្សែង",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 9,
+      "month": 9
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​អក្ខរកម្មជាតិ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 8,
+      "month": 9
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវា​យុវជន​អន្តរជាតិ",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 12,
+      "month": 8
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាចូលឆ្នាំសកល",
+      "en": "International New Year Day"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": 1,
+      "month": 1
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាជ័យជំនះលើរបបប្រល័យពូជសាសន៍",
+      "en": "Day of Victory over the Genocidal Regime"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": 7,
+      "month": 1
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវានារីអន្តរជាតិ",
+      "en": "International Women's Rights Day"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": 8,
+      "month": 3
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាពលកម្មអន្តរជាតិ",
+      "en": "International Labor Day"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": 1,
+      "month": 5
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះរាជពិធីបុណ្យចម្រើនព្រះជន្ម ព្រះករុណា ព្រះបាទសម្តេចព្រះបរមនាថ នរោត្តម សីហមុនី ព្រះមហាក្សត្រ នៃព្រះរាជាណាចក្រកម្ពុជា",
+      "en": "Birthday of His Majesty Preah Bat Samdech Preah Boromneath NORODOM SIHAMONI, King of Cambodia"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": 14,
+      "month": 5
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះរាជពិធីបុណ្យចម្រើនព្រះជន្ម សម្តេចព្រះមហាក្សត្រី នរោត្តម មុនិនាថ សីហនុ ព្រះវររាជមាតាជាតិខ្មែរ",
+      "en": "Birthday of Her Majesty the Queen-Mother NORODOM MONINEATH SIHANOUK of Cambodia"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": 18,
+      "month": 6
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាប្រកាសរដ្ឋធម្មនុញ្ញ",
+      "en": "Constitution Day"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": 24,
+      "month": 9
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាប្រារព្ធពិធីគោរពព្រះវិញ្ញាណក្ខន្ធ ព្រះករុណា ព្រះបាទសម្តេច ព្រះនរោត្តម សីហនុ ព្រះមហាវីរក្សត្រ ព្រះវររាជបិតា ឯករាជ្យបូរណភាពទឹកដី និងឯកភាពជាតិខ្មែរ “ព្រះបរមរតនកោដ្ឋ”",
+      "en": "Mourning Day of the Late King-Father NORODOM SIHANOUK of Cambodia"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": 15,
+      "month": 10
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ព្រះរាជពិធីគ្រងព្រះបរមរាជសម្បត្តិរបស់  ព្រះករុណាព្រះបាទសម្តេចព្រះបរមនាថ នរោត្តម សីហមុនី ព្រះមហាក្សត្រ នៃព្រះរាជាណាចក្រកម្ពុជា",
+      "en": "Coronation Day of His Majesty Preah Bat Samdech Preah Boromneath NORODOM SIHAMONI, King of Cambodia"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": 29,
+      "month": 10
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ពិធីបុណ្យឯករាជ្យជាតិ",
+      "en": "National Independence Day"
+    },
+    "type": "holiday",
+    "start_date": {
+      "day": 9,
+      "month": 11
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ថ្ងៃបុណ្យនៃសេចក្តីស្រលាញ់",
+      "en": "Valentine's Day"
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 14,
+      "month": 2
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាជាតិសុខភាពមាតា និងទារក",
+      "en": "National Day on Maternal, Newborn and Child Health"
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 21,
+      "month": 2
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាកម្ចាត់​មីន",
+      "en": "National Mine Awareness Day"
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 24,
+      "month": 2
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាវប្បធម៌ជាតិ",
+      "en": "National Culture Day"
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 3,
+      "month": 3
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវានយោបាយទឹក",
+      "en": "Water Policy Day"
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 4,
+      "month": 3
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "គោរពវិញ្ញាណក្ខន្ធសម្តេចព្រះសុរាម្រឹត",
+      "en": ""
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 6,
+      "month": 3
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាពិភពលោកទឹក និងឧតុនិយម",
+      "en": "World Water and World Meteorological Day"
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 22,
+      "month": 3
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាពិភពលោកកំចាត់ជម្ងឺរបេង",
+      "en": "World Tuberculosis Day"
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 24,
+      "month": 3
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  },
+  {
+    "label": {
+      "kh": "ទិវាសុខភាពមាត់ធ្មេញ",
+      "en": "World Tuberculosis Day"
+    },
+    "type": "general-event",
+    "start_date": {
+      "day": 31,
+      "month": 1
+    },
+    "valid": {
+      "from": "",
+      "to": ""
+    }
+  }
+]
