@@ -26,11 +26,14 @@ function createWindow() {
     (display) => display.bounds.x !== 0 || display.bounds.y !== 0,
   );
   const { width, height } = screen.getPrimaryDisplay().workAreaSize;
-
   win = new BrowserWindow({
     icon: path.join(process.env.VITE_PUBLIC, "electron-vite.svg"),
     webPreferences: {
-      preload: path.join(__dirname, "preload.js"),
+      // preload: path.join(__dirname, "preload.js"),
+      contextIsolation: false,
+      nodeIntegrationInWorker: true,
+      nodeIntegration: true,
+      // webSecurity: false,
     },
     x: externalDisplay ? externalDisplay.bounds.x : 0,
     y: externalDisplay ? externalDisplay.bounds.y : 0,

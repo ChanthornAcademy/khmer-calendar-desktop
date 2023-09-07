@@ -10,7 +10,7 @@ import { DocumentDuplicateIcon } from "@heroicons/vue/24/outline";
 import useEventCalendar from "@/composables/useEventCalendar";
 import type { DaysType } from "@/composables/useCalendar";
 import { useChineseEvents } from "@/composables/useChineseEvents";
-
+import { clipboard } from "electron";
 dayjs.extend(localizedFormat);
 
 const { getEvents, getChineseNewYear, getPureBrightnessFestival } =
@@ -130,8 +130,8 @@ const currentDateComputed = computed(() => {
 });
 
 const onCopyKhDate = (text: string) => {
-  // clipboard.writeText(text);
-  // alert("ចម្លងបានជោគជ័យ");
+  clipboard.writeText(text);
+  alert("ចម្លងបានជោគជ័យ");
 };
 </script>
 
