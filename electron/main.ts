@@ -91,6 +91,13 @@ app.on("ready", async () => {
       body: body,
     });
     notification.show();
+    // const { dialog } = require("electron");
+    // dialog.showMessageBox({
+    //   icon: path.join(process.env.VITE_PUBLIC, "images/icon.png"),
+    //   title: title,
+    //   message: body,
+    //   buttons: ["OK"],
+    // });
   });
 
   // ipcMain.on("new-window", async (_event, url) => {
