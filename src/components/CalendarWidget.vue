@@ -10,9 +10,9 @@ import { DocumentDuplicateIcon } from "@heroicons/vue/24/outline";
 import useEventCalendar from "@/composables/useEventCalendar";
 import type { DaysType } from "@/composables/useCalendar";
 import { useChineseEvents } from "@/composables/useChineseEvents";
-import { clipboard } from "electron";
-dayjs.extend(localizedFormat);
+import { clipboard, ipcRenderer } from "electron";
 
+dayjs.extend(localizedFormat);
 const { getEvents, getChineseNewYear, getPureBrightnessFestival } =
   useChineseEvents();
 
@@ -129,9 +129,13 @@ const currentDateComputed = computed(() => {
   return dayjs(`${currentYear.value}-${currentMonth.value}-01`);
 });
 
-const onCopyKhDate = (text: string) => {
-  clipboard.writeText(text);
-  alert("ចម្លងបានជោគជ័យ");
+const onCopyKhDate = async (text: string) => {
+  await clipboard.writeText(text);
+  // send notification to main process
+  await ipcRenderer.send("notification", {
+    title: "ការចម្លងបានជោគជ័យ",
+    body: `ការចម្លងបានជោគជ័យដោយជោគជ័យ។`,
+  });
 };
 </script>
 
@@ -148,7 +152,7 @@ const onCopyKhDate = (text: string) => {
         />
       </div>
       <div class="w-full @4xl/cal:w-1/3 shrink-0">
-        <div class="rounded-xl bg-base-100 shadow">
+        <div class="shadow rounded-xl bg-base-100">
           <h1
             class="px-2 pt-2 font-limon-r1 text-lg @2xl/cal:text-2xl text-brand-800"
           >
@@ -209,12 +213,12 @@ const onCopyKhDate = (text: string) => {
       }
     "
   >
-    <h2 class="mb-3 font-bold text-xl">
+    <h2 class="mb-3 text-xl font-bold">
       {{ showKhDate.date.format("LL") }}
     </h2>
-    <ul class="list-outside pl-4 list-disc text-lg">
+    <ul class="pl-4 text-lg list-disc list-outside">
       <li>
-        <div class="flex gap-1 items-center">
+        <div class="flex items-center gap-1">
           {{ showKhDate.khDate }}
           <button
             type="button"

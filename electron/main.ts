@@ -1,4 +1,5 @@
-import { app, BrowserWindow, screen } from "electron";
+process.env["ELECTRON_DISABLE_SECURITY_WARNINGS"] = "true";
+import { app, BrowserWindow, ipcMain, screen, Notification } from "electron";
 import path from "node:path";
 
 // The built directory structure
@@ -33,7 +34,7 @@ function createWindow() {
       contextIsolation: false,
       nodeIntegrationInWorker: true,
       nodeIntegration: true,
-      // webSecurity: false,
+      webSecurity: false,
     },
     x: externalDisplay ? externalDisplay.bounds.x : 0,
     y: externalDisplay ? externalDisplay.bounds.y : 0,
@@ -43,8 +44,10 @@ function createWindow() {
 
   // Test active push message to Renderer-process.
   win.webContents.on("did-finish-load", () => {
+    win?.webContents.send("main-screen-fn", mainScreen);
     win?.webContents.send("main-process-message", new Date().toLocaleString());
   });
+  win.webContents.openDevTools();
 
   if (VITE_DEV_SERVER_URL) {
     win.loadURL(VITE_DEV_SERVER_URL);
@@ -70,6 +73,42 @@ app.on("activate", () => {
   if (BrowserWindow.getAllWindows().length === 0) {
     createWindow();
   }
+});
+
+// IPC handler
+app.on("ready", async () => {
+  ipcMain.on("notification", (_event, message) => {
+    const title = message.title;
+    const body = message.body;
+
+    console.log(Notification.isSupported());
+    const notification = new Notification({
+      icon: path.join(process.env.VITE_PUBLIC, "electron-vite.svg"),
+      title: title,
+      body: body,
+    });
+    notification.show();
+  });
+
+  // ipcMain.on("new-window", async (_event, url) => {
+  //   let newWin: BrowserWindow | null;
+  //   newWin = new BrowserWindow({
+  //     title: "New Window",
+  //     icon: path.join(process.env.VITE_PUBLIC, "electron-vite.svg"),
+  //     width: 800,
+  //     height: 600,
+  //     webPreferences: {
+  //       contextIsolation: false,
+  //       nodeIntegrationInWorker: true,
+  //       nodeIntegration: true,
+  //       webSecurity: false,
+  //     },
+  //   });
+  //   console.log(url);
+  //   await newWin.loadURL(url);
+  //   newWin.webContents.openDevTools();
+  //   newWin?.webContents.send("new-window-reply", "success");
+  // });
 });
 
 app.whenReady().then(createWindow);
