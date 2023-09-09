@@ -28,7 +28,7 @@ function createWindow() {
   );
   const { width, height } = screen.getPrimaryDisplay().workAreaSize;
   win = new BrowserWindow({
-    icon: path.join(process.env.VITE_PUBLIC, "electron-vite.svg"),
+    icon: path.join(process.env.VITE_PUBLIC, "images/icon.png"),
     webPreferences: {
       // preload: path.join(__dirname, "preload.js"),
       contextIsolation: false,
@@ -47,7 +47,10 @@ function createWindow() {
     win?.webContents.send("main-screen-fn", mainScreen);
     win?.webContents.send("main-process-message", new Date().toLocaleString());
   });
-  win.webContents.openDevTools();
+
+  if (process.env.NODE_ENV === "development") {
+    win.webContents.openDevTools();
+  }
 
   if (VITE_DEV_SERVER_URL) {
     win.loadURL(VITE_DEV_SERVER_URL);
@@ -81,9 +84,9 @@ app.on("ready", async () => {
     const title = message.title;
     const body = message.body;
 
-    console.log(Notification.isSupported());
+    // console.log(Notification.isSupported());
     const notification = new Notification({
-      icon: path.join(process.env.VITE_PUBLIC, "electron-vite.svg"),
+      icon: path.join(process.env.VITE_PUBLIC, "images/icon.png"),
       title: title,
       body: body,
     });
