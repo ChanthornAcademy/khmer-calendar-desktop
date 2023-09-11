@@ -109,6 +109,29 @@ const onUpdateFromPage = async (
     ...getEvents(days),
   ];
 
+  // get khmer new year date
+  if (currentMonth.value === 4) {
+    const khmerNewYearDate = dayjs(`${currentYear.value}-04-13`).khNewYear();
+    let newYeardDays = khmerNewYearDate.dates.map((item) => {
+      return {
+        key: `${item.date.format()}-new-year-${item.dayName}`,
+        dates: item.date,
+        highlight: "red",
+        popover: {
+          label:
+            item.dayName === "Moha Sangkranta"
+              ? `ពិធីបុណ្យចូលឆ្នាំថ្មី ប្រពៃណីជាតិ (មហាសង្រ្កាន្ត ម៉ោង ${item.date
+                  .locale(Km)
+                  .format("hh:mmA")})`
+              : item.dayName === "Veareak Vanabat"
+              ? "ពិធីបុណ្យចូលឆ្នាំថ្មី ប្រពៃណីជាតិ (វារៈវ័នបត)"
+              : "ពិធីបុណ្យចូលឆ្នាំថ្មី ប្រពៃណីជាតិ (វារៈឡើងស័ក)",
+        },
+      };
+    });
+    attributes.value = [...attributes.value, ...newYeardDays];
+  }
+
   attributes.value = [...attributes.value, ...tradEvents, ...chineseEvents];
 };
 

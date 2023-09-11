@@ -1,6 +1,7 @@
 process.env["ELECTRON_DISABLE_SECURITY_WARNINGS"] = "true";
 import { app, BrowserWindow, ipcMain, screen, Notification } from "electron";
 import path from "node:path";
+import useMenu from "./menu";
 
 // The built directory structure
 //
@@ -80,6 +81,9 @@ app.on("activate", () => {
 
 // IPC handler
 app.on("ready", async () => {
+  // init app menus
+  useMenu().init();
+
   ipcMain.on("notification", (_event, message) => {
     const title = message.title;
     const body = message.body;
