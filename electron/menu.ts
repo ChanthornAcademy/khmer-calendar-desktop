@@ -1,4 +1,4 @@
-import { app, Menu, dialog } from "electron";
+import { app, Menu } from "electron";
 
 export default function useMenu() {
   const init = () => {
